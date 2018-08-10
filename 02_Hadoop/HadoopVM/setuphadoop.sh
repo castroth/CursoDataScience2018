@@ -4,6 +4,7 @@ export HADOOP_HOME=/vagrant/hadoop-2.9.1
 # Unpack Hadoop 2.9.1
 # http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz
 if [ ! -d /vagrant/hadoop-2.9.1 ]; then
+  wget -c http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-2.9.1/hadoop-2.9.1.tar.gz -P /vagrant
   tar -zxvf /vagrant/hadoop-2.9.1.tar.gz -C /vagrant
 fi
 
