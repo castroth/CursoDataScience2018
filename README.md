@@ -3,3 +3,7 @@
 ## Disciplina: Gerência de Infraestrutura em Big Data
 
 Prof. Tiago Ferreto <tiago.ferreto@pucrs.br>
+
+## Exercícios
+
+- Big Data - https://classroom.github.com/a/5iXe7Xw1
