@@ -9,6 +9,7 @@ fi
 
 # Hadoop configuration
 sed -i "\$aexport JAVA_HOME=$JAVA_HOME" $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+sed -i "\$aexport JAVA_HOME=$JAVA_HOME" ~/.bashrc
 sed -i "\$aexport HADOOP_HOME=/vagrant/hadoop-2.9.1" ~/.bashrc
 
 # Create logs directory

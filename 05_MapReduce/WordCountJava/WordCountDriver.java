@@ -15,9 +15,10 @@ public class WordCountDriver extends Configured implements Tool {
     System.out.printf("Usage: %s [generic options] <inputdir> <outputdir>\n", getClass().getSimpleName());
     return -1;
    }
-   Job job = new Job(getConf());
+
+//   Job job = new Job(getConf());
+   Job job = Job.getInstance(getConf(), "Word Count");
    job.setJarByClass(WordCountDriver.class);
-   job.setJobName("Word Count");
    FileInputFormat.setInputPaths(job, new Path(args[0]));
    FileOutputFormat.setOutputPath(job, new Path(args[1]));
    job.setMapperClass(WordCountMapper.class);
