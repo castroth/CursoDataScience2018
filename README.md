@@ -6,5 +6,11 @@ Prof. Tiago Ferreto <tiago.ferreto@pucrs.br>
 
 ## Exercícios
 
-- Big Data - https://classroom.github.com/a/5iXe7Xw1
-- HDFS HandsOn - https://classroom.github.com/a/J_PPS8jQ
+- Assigment para submissão - https://classroom.github.com/a/5iXe7Xw1
+  - Todos os exercícios devem ser submetidos neste mesmo assignment
+  - Prazo para entrega: 7/9/2018 - 23:00
+- Exercícios
+  - BigData
+  - HDFS
+  - MapReduce
+    
